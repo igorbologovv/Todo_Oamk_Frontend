@@ -5,7 +5,7 @@ const taskInput = document.getElementById('taskInput');
 const taskList = document.querySelector('.list-group');
 const form = document.querySelector('form');
 
-const BACKEND_ROOT_URL = 'http://localhost:3001';
+const BACKEND_ROOT_URL = 'https://todo-oamk-backend-9.onrender.com/';
 const todos = new Todos(BACKEND_ROOT_URL);
 
 const getTasks = async () => {
